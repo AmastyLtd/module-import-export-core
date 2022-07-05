@@ -12,7 +12,7 @@ class CliPhpResolver
 {
     private const PHP_EXECUTABLE_PATH = 'php_executable_path';
 
-    private const VERSION_CHECK_REGEXP = '/PHP [\d\.]+ \(cli\)/';
+    private const VERSION_CHECK_REGEXP = '/PHP [\d\.\+a-z-]+ \(cli\)/';
 
     /**
      * @var DeploymentConfig
