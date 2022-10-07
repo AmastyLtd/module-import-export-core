@@ -1,5 +1,5 @@
 # Import Export Core by Amasty
-<h3>Explore a free version of the import and export solution for Magento 2. This package has the same code and architecture as the original paid <a href="https://amasty.com/import-and-export-for-magento-2.html" target="_blank">Import and Export for Magento 2</a> extension but includes core functionality only suitable for manual data transfer. See the full scope of automatization features and entities available in the paid version <a href="https://export-extensions-m2.magento-demo.amasty.com/admin/amorderimport/profile/index/" target="_blank">in this demo</a> or <a href="https://calendly.com/yuliya-simakovich/book-a-demo" target="_blank">book a live demo</a> with the Amasty team to get a consultation in real-time.</h3>
+<h3>Explore a free version of the import and export solution for Magento 2. Install together with the <a href="https://github.com/AmastyLtd/module-export-core" target="_blank">Export Core</a> and <a href="https://github.com/AmastyLtd/module-import-core" target="_blank">Import Core</a> to see the interface and full scope of data transfer features. This package has the same code and architecture as the original paid <a href="https://amasty.com/import-and-export-for-magento-2.html" target="_blank">Import and Export for Magento 2</a> extension but includes core functionality only suitable for manual data transfer. See the full scope of automatization features and entities available in the paid version <a href="https://export-extensions-m2.magento-demo.amasty.com/admin/amorderimport/profile/index/" target="_blank">in this demo</a> or <a href="https://calendly.com/yuliya-simakovich/book-a-demo" target="_blank">book a live demo</a> with the Amasty team to get a consultation in real-time.</h3>
 
 ![key-entities-new-git](https://user-images.githubusercontent.com/104132415/164422017-b74751b7-9afc-47f8-9ef1-8533f327f7af.png)
 
@@ -195,15 +195,5 @@ If you need a specific entity, but with the automation options, you can purchase
 -> <a href="https://amasty.com/export-customers-for-magento-2.html" target="_blank">Export Customers</a><br>
 <h2>Troubleshooting </h2>
 <p><i>Have any questions? Feel free to <a href="https://amasty.com/contacts/">contact us</a>!</i></p> 
-<p><i>Want us to develop a custom integration? <a href="https://amasty.com/magento-development.html">Talk to our experts</a>.</i></p>  
-<br>
-<p><b>Problem:</b> import or export process fails on the second step.</p>
-<br>
-<p><b>Solution:</b> It can happen because the internal logic of the Import/Export solution uses console PHP for background data processing. In some cases, related to the peculiarities of the server configuration, the system classes cannot automatically determine the path to the console PHP. In this case, the operation of the corresponding background processes becomes impossible. We've found the solution in the Base system module, which consists in explicitly specifying the correct path to the console PHP.</p>
-<p>To do this, add this value to the <code>app / etc / env.php file</code> under the <code>php_executable_path</code> key:</p>
-  <code> ...</code><br>
-     <code> 'php_executable_path' => '/opt/custom/7.4/bin/php'</code><br>
-  <code>];</code><br>
-<br>
-<p>where <code>/opt/custom/7.4/bin/php</code> is the correct path to the console PHP interpreter on the server.</p>
+<p><i>Want us to develop a custom integration? <a href="https://amasty.com/magento-integration-service.html">Find the details here.</a>.</i></p>  
 
