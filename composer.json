@@ -5,8 +5,10 @@
         "php": ">=7.3"
     },
     "type": "magento2-module",
-    "version": "1.1.4",
-    "license": "proprietary",
+    "version": "1.2.0",
+    "license": [
+        "proprietary"
+    ],
     "autoload": {
         "files": [
             "registration.php"
