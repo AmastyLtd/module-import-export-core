@@ -17,7 +17,7 @@ use Magento\Framework\Reflection\NameFinder;
 use Magento\Framework\Reflection\TypeProcessor;
 use Magento\Framework\Webapi\CustomAttributeTypeLocatorInterface;
 use Magento\Framework\Webapi\ServiceInputProcessor;
-use Zend\Code\Reflection\ClassReflection;
+use Laminas\Code\Reflection\ClassReflection;
 
 /**
  * Class rewrites _createFromArray method
