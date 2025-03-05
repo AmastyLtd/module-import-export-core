@@ -201,3 +201,22 @@ If you need a specific entity, but with the automation options, you can purchase
 <p><i>Have any questions? Feel free to <a href="https://amasty.com/contacts/">contact us</a>!</i></p> 
 <p><i>Want us to develop a custom integration? <a href="https://amasty.com/magento-integration-service.html">Find the details here.</a>.</i></p>  
 
+<h2>Other Amasty extensions</h2>
+-> <a href="https://amasty.com/sales-reps-and-dealers-for-magento-2.html" target="_blank">Sales Reps and Dealers for Magento 2</a><br>
+-> <a href="https://amasty.com/rma-for-magento-2.html" target="_blank">RMA for Magento 2</a><br>
+-> <a href="https://amasty.com/reward-points-for-magento-2.html" target="_blank">Reward Points for Magento 2</a><br>
+-> <a href="https://amasty.com/request-a-quote-for-magento-2.html" target="_blank">Request a Quote for Magento 2</a><br>
+-> <a href="https://amasty.com/reindex-from-admin-for-magento-2.html" target="_blank">Reindex from Admin for Magento 2</a><br>
+-> <a href="https://amasty.com/recently-viewed-products-popup-for-magento-2.html" target="_blank">Recently Viewed Products Popup for Magento 2</a><br>
+-> <a href="https://amasty.com/quick-view-for-magento-2.html" target="_blank">Quick View for Magento 2</a><br>
+-> <a href="https://amasty.com/quick-order-for-magento-2.html" target="_blank">Quick Order for Magento 2</a><br>
+-> <a href="https://amasty.com/push-notifications-for-magento-2.html" target="_blank">Push Notifications for Magento 2</a><br>
+-> <a href="https://amasty.com/promo-banners-for-magento-2.html" target="_blank">Promo Banners for Magento 2</a><br>
+-> <a href="https://amasty.com/product-tabs-for-magento-2.html" target="_blank">Product Tabs for Magento 2</a><br>
+-> <a href="https://amasty.com/product-parts-finder-for-magento-2.html" target="_blank">Product Parts Finder for Magento 2</a><br>
+-> <a href="https://amasty.com/product-labels-for-magento-2.html" target="_blank">Product Labels for Magento 2</a><br>
+-> <a href="https://amasty.com/product-feed-for-magento-2.html" target="_blank">Product Feed for Magento 2</a><br>
+-> <a href="https://amasty.com/product-feed.html" target="_blank">Product Feed</a><br>
+-> <a href="https://amasty.com/product-attachments.html" target="_blank">Product Attachments</a><br>
+-> <a href="https://amasty.com/out-of-stock-notification.html" target="_blank">Out of Stock Notification</a><br>
+-> <a href="https://amasty.com/order-attributes.html" target="_blank">Order Attributes</a><br>
