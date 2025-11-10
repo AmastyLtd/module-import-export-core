@@ -61,7 +61,7 @@ class JobManager
 
     public function __construct(
         ResourceConnection $resourceConnection,
-        callable $jobDoneCallback = null,
+        ?callable $jobDoneCallback = null,
         $maxJobs = self::DEFAULT_JOBS_LIMIT
     ) {
         $this->resourceConnection = $resourceConnection;

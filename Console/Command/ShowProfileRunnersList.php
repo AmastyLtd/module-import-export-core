@@ -27,7 +27,7 @@ class ShowProfileRunnersList extends Command
 
     public function __construct(
         ProfileManagerInterface $profileManager,
-        string $name = null
+        ?string $name = null
     ) {
         parent::__construct($name);
         $this->profileManager = $profileManager;

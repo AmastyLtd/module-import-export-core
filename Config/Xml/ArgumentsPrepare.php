@@ -55,7 +55,7 @@ class ArgumentsPrepare
             if ($argument->getType() === 'array' && !empty($argumentData['item'])) {
                 $argument->setItems($this->prepareArguments($argumentData['item']));
             } else {
-                $argument->setValue($argumentData['value']);
+                $argument->setValue($argumentData['value'] ?? '');
             }
 
             $result[] = $argument;

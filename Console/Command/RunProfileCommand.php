@@ -38,7 +38,7 @@ class RunProfileCommand extends Command
     public function __construct(
         ProfileManagerInterface $profileManager,
         CliAreaFlag $cliAreaFlag,
-        string $name = null
+        ?string $name = null
     ) {
         parent::__construct($name);
         $this->profileManager = $profileManager;

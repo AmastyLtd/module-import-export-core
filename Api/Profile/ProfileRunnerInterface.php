@@ -14,14 +14,14 @@ interface ProfileRunnerInterface
      * @param \Closure|null $profileConfigModifier
      * @return string
      */
-    public function run(int $profileId, \Closure $profileConfigModifier = null): string;
+    public function run(int $profileId, ?\Closure $profileConfigModifier = null): string;
 
     /**
      * @param int $profileId
      * @param \Closure|null $profileConfigModifier
      * @return string
      */
-    public function manualRun(int $profileId, \Closure $profileConfigModifier = null): string;
+    public function manualRun(int $profileId, ?\Closure $profileConfigModifier = null): string;
 
     /**
      * @param int $profileId
@@ -30,6 +30,6 @@ interface ProfileRunnerInterface
      */
     public function prepareProfileConfig(
         int $profileId,
-        \Closure $profileConfigModifier = null
+        ?\Closure $profileConfigModifier = null
     );
 }
